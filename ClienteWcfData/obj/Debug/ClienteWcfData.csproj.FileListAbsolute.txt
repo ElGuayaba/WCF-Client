@@ -1,0 +1,12 @@
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\bin\Debug\ClienteWcfData.exe.config
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\bin\Debug\ClienteWcfData.exe
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\bin\Debug\ClienteWcfData.pdb
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.csprojAssemblyReference.cache
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.Form1.resources
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.Properties.Resources.resources
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.csproj.GenerateResource.cache
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.csproj.CoreCompileInputs.cache
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.exe
+c:\users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.pdb
+C:\Users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.Form2.resources
+C:\Users\formacion\source\repos\ClienteWcfData\ClienteWcfData\obj\Debug\ClienteWcfData.Form3.resources
