@@ -12,7 +12,7 @@ namespace ClienteWcfData
 {
 	public partial class Form1 : Form
 	{
-		Form2 form;
+		Form2 Form2Add;
 		public Form1()
 		{
 			InitializeComponent();
@@ -24,9 +24,9 @@ namespace ClienteWcfData
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			form = new Form2();
-			form.AlumnoAdded += new EventHandler(this.button3_Click);
-			form.Show();
+			Form2Add = new Form2();
+			Form2Add.AlumnoAdded += new EventHandler(this.button3_Click);
+			Form2Add.Show();
 		}
 
 		private void button2_Click(object sender, EventArgs e)
