@@ -20,13 +20,13 @@ namespace ClienteWcfData
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			Form2Add = new Form2();
+			Form2Add.AlumnoAdded += new EventHandler(this.button3_Click);
 		}
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			Form2Add = new Form2();
 			//Form2Add.button1.Click += new EventHandler(this.button3_Click);
-			Form2Add.AlumnoAdded += new EventHandler(this.button3_Click);
 			Form2Add.Show();
 		}
 
