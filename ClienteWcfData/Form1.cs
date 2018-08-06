@@ -21,23 +21,23 @@ namespace ClienteWcfData
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			Form2Add = new Form2();
-			Form2Add.AlumnoAdded += new EventHandler(this.button3_Click);
+			Form2Add.AlumnoAdded += new EventHandler(this.RefreshTcp);
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+		private void AddEvent(object sender, EventArgs e)
 		{
 			//Form2Add.button1.Click += new EventHandler(this.button3_Click);
 			Form2Add.Show();
 		}
 
-		private void button2_Click(object sender, EventArgs e)
+		private void RefreshHttp(object sender, EventArgs e)
 		{
 			ServiceReference1.Service1Client svc = new ServiceReference1.Service1Client("HTTP");
 			List<ServiceReference1.Alumno> listaAlumnos = svc.GetAll();
 			dgvAlumno.DataSource = listaAlumnos;
 		}
 
-		private void button3_Click(object sender, EventArgs e)
+		private void RefreshTcp(object sender, EventArgs e)
 		{
 			ServiceReference1.Service1Client svc = new ServiceReference1.Service1Client("TCP");
 			List<ServiceReference1.Alumno> listaAlumnos = svc.GetAll();
